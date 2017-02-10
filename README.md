@@ -148,6 +148,8 @@ Parameters are loaded from multiple YAML files, merged from the following lookup
 - parameters/[stack_name].yml
 - parameters/[region]/[underscored_stack_name].yml
 - parameters/[region_alias]/[underscored_stack_name].yml
+- parameters/[region_alias].yml
+- parameters/[region].yml
 
 A simple parameter file could look like this:
 
